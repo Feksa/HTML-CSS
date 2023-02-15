@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+body
+{
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header
+{
+    background-image: linear-gradient(#3CDB83, #3E815C);
+    padding: 10px 10px 5px 10px;
+    margin: 0px;
+
+    color: white;
+    text-align: center;
+    text-shadow: 1px, 2px, 3px, rgba(0, 0, 0, 0.336);
+}
+
+header > h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header>h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+}
+header>nav
+{
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header>nav>a
+{
+    margin: 0px 10px 0px 0px;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px 10px 0px 0px;
+}
+header>nav>a:hover
+{
+    background-color: #5fa57d;
+    
+    color: black;
+}
+
+main
+{
+    background-color: white;
+    width: 840px;
+    margin: 0px auto;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.349);
+}
+
+main>article>section.content
+{
+    padding: 20px;
+}
+main>article>section.content>h1
+{
+    font-family: 'idroid';
+    font-size: 2em;
+}
+main>article>section.content>h2
+{
+    background-image: linear-gradient(90deg, #84e1acc4, #84e1ac00);
+    padding: 1px 10px;
+    font-family: 'idroid';
+}
+main>article>section.content>p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+
+main>article>section#video
+{
+    padding: 20px;
+    background-color: #3CDB83;
+}
+
+main>article>aside
+{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #84E1AD;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main>article>aside>h2
+{
+    background-color: #3E815C;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+
+    padding: 10px;
+    margin: 0px;
+}
+main>article>aside>p
+{
+    padding: 5px 20px;
+}
+
+main>article>aside>ul
+{
+    list-style: none;
+}
+main>article>aside>ul>li::before
+{
+    font-weight: bolder;
+    content: '✓';
+}
+
+footer
+{
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
