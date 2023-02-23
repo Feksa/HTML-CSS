@@ -9,16 +9,25 @@
         body
         {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+
+                Na documentação o size fica na penultima posição. Mas, na prática, ele não funciona no shorthand.
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main
         {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
